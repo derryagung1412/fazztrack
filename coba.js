@@ -50,6 +50,8 @@ let hasil = [total1, total2, total3, total4, total5]
 let text = '==================================='
 console.log(text)
 console.log(hasil)
+console.log(Math.max(...hasil))
+console.log(Math.min(...hasil))
 
 //SOAL 2
 function Prime (num) {
@@ -63,5 +65,3 @@ function Prime (num) {
   }
   
  console.log(Prime(1));
-console.log(Math.max(...hasil))
-console.log(Math.min(...hasil))
