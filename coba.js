@@ -1,3 +1,5 @@
+ 
+ //SOAL 1
  let total1 = 0
  let total2 = 0
  let total3 = 0
@@ -48,5 +50,18 @@ let hasil = [total1, total2, total3, total4, total5]
 let text = '==================================='
 console.log(text)
 console.log(hasil)
+
+//SOAL 2
+function Prime (num) {
+    var flag = true
+    for(var i = num-1; i>1; i--) {
+      if (num%i === 0) {
+        flag = false
+      } 
+    }
+    return flag
+  }
+  
+ console.log(Prime(1));
 console.log(Math.max(...hasil))
 console.log(Math.min(...hasil))
